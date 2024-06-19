@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer feedback form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+
+<body>
+    <div class="main"> 
+    <h1>Customer Feedback Form</h1>
+    <h4>[ Please help to improve our services/products by filling out this form ]</h4>
+    
+    <label for="name">Name:
+    </label>
+    <div class="name">
+        <input type="text" placeholder="First">
+        <input type="text" placeholder="Last">
+        </div>
+        
+        <label for="email">Email:</label>
+        <input type="email" placeholder=" ">
+        
+        
+        <label for="phone">Phone:</label>
+        <input type="text">
+        
+        <label for="experience">Experience Rating:</label>
+        <div class="radio">
+            <input type="radio" name="rate" value="Very Satisfied">Very Satisfied
+            <input type="radio" name="rate" value="Satisfied">Satisfied
+            <input type="radio" name="rate" value="Neutral">Neutral
+            <input type="radio" name="rate" value="Dissatisfied">Dissatisfied
+            <input type="radio" name="rate" value="Very Dissatisfied">Very Dissatisfied
+            </div>
+            <label for="rating">Service Quality:</label>
+            <select name="quality" id="quality">
+                <option value="Excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="poor">Poor</option>
+                <option value="very poor">Very Poor</option>
+                </div>
+    </select>
+
+    <label for="rating">Product Quality:</label>
+    <select name="quality" id="quality">
+        <option value="Excellent">Excellent</option>
+        <option value="good">Good</option>
+        <option value="poor">Poor</option>
+        <option value="very poor">Very Poor</option>
+    </select>
+    <div class="radio">
+        <label for="recommendation">Would you recommend our product/services ?</label>
+        <input type="radio" name="recommend">Yes
+        <input type="radio" name="recommend">No
+    </div>
+    <div class="ques">
+    <label for="detailed">Detailed Feedback:</label>
+    <label for="question">What did you like the most about the product/service?</label>
+    <textarea name="detail" id="detail">Write here... </textarea>
+    <label for="question">What can we improve ?</label>
+    <textarea name="detail" id="detail">Write here...</textarea>
+</div>
+    <button>Submit</button>
+</div>
+
+</body>
+
+</html>

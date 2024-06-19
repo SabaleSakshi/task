@@ -1,0 +1,102 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-image: url("https://events.irmagazine.com/globalforum/wp-content/uploads/sites/164/2020/07/abstract-geometric-background.png");
+    display: flex;
+}
+
+.main{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap:10px ;
+    margin-left: 25px; margin-top: 15px;
+    
+}
+
+input{
+    height: 3vh;
+    width: 15vw;
+}
+.name{
+    display: flex;
+    gap: 2vw;
+}
+.radio{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    
+}
+.radio input{
+    border: 0px;
+    height: 1em;
+    width: 50%;
+    position: relative;
+    top:14px;
+}
+
+select{
+    width: 12vw;
+}
+textarea{
+    height: 8vh;
+    width: 30vw;
+}
+button{
+    height: 4vh;
+    width: 10vw;
+    background-color: #003459;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 6px;
+    margin-left: 10vw;
+}
+label{
+    color:#031c2e;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.ques :nth-child(2) , :nth-child(4){
+    color:#0d1f2cdd;
+    display: flex;
+
+}
+h1,h4{
+    color: #0a0a0a;
+    text-align: center;
+    text-shadow:2px 4px 4px gray;
+}
+@media (min-width:360px) {
+    .radio input{
+        border: 0px;
+        height: 1em;
+        width: 100%;
+        position: relative;
+        top:14px;
+    }
+    input{
+        height: 3vh;
+        width: 30vw;
+    }
+    textarea{
+        height: 8vh;
+        width: 60vw;
+    }
+    button{
+        height: 4vh;
+        width: 20vw;
+        background-color: #003459;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 8px;
+        border-radius: 6px;
+        margin-left: 20vw;
+    }
+    h1,h4{
+        
+        margin-right: 15px;
+        text-shadow:2px 4px 4px gray;
+    }
+}
